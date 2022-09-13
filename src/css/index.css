@@ -9,7 +9,7 @@
 }
 
 .fundo {
-    background-color: purple;
+    background-color:whitesmoke;
 
     display: flex;
     flex-direction: column;
@@ -22,24 +22,25 @@
     margin-top: 30px;
 
     width: 500px;
-    height: 400px;
+    height: 700px;
+    border-radius: 10px;
 }
 
 .titulo {
-    background-color: purple;
+    background-color: transparent;
 
-    color: #f9f9f9;
+    color: #E3B1AA;
 
     display: flex;
     justify-content: center;
 }
 
 .fundo form {
-    background-color: purple;
+    background-color: transparent;
 }
 
 .itens {
-    background-color: purple;
+    background-color: transparent;
 
     display: flex;
     flex-direction: row;
@@ -47,6 +48,11 @@
     justify-content: center;
 
     margin-top: 10px;
+}
+.itens label {
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .itens input {
@@ -62,14 +68,14 @@
 }
 
 .lado-esquerdo {
-    background-color: purple;
+    background-color: transparent;
 
     display: flex;
     flex-direction: column;
 }
 
 .lado-direito {
-    background-color: purple;
+    background-color: transparent;
 
     display: flex;
     flex-direction: column;
@@ -78,7 +84,7 @@
 }
 
 .botoes {
-    background-color: purple;
+    background-color: transparent;
 
     display: flex;
 
@@ -92,18 +98,29 @@
     width: 120px;
     height: 30px;
 
-    background-color: green;
-    color: white;
+    background-color: #608642;
+    color: whitesmoke;
 
     border: none;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
-.botoes #entrar {
-    background-color: green;
+.botoes #Enviar {
+    background-color: #53723e;
 }
 
 .botoes #limpar {
-    background-color: red;
+    background-color: #9c4f3a;
     margin-left: 5px;
+}
+
+.botoes #limpar:hover {
+    background-color: #a06352;
+    cursor: pointer;
+}
+
+.botoes #Enviar:hover {
+    background-color: #6a944d;
+    cursor: pointer;
 }
